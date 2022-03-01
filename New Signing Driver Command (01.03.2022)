@@ -1,0 +1,1 @@
+signtool sign /sm /s Root /fd sha256 "$($Publisher.Thumbprint)" /t http://timestamp.comodoca.com/authenticode secdrv.cat
